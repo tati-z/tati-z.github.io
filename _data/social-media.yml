@@ -1,0 +1,14 @@
+email:
+  href: 'mailto:tatianazihindula@gmail.com?Subject=[from%20website]'
+  title: 'Email'
+  fa-icon: 'fa-star'
+
+linkedin:
+  href: 'https://www.linkedin.com/in/tati-z'
+  title: 'LinkedIn'
+  fa-icon: 'fa-linkedin'
+  
+github:
+  href: 'https://github.com/tati-z'
+  title: 'GitHub'
+  fa-icon: 'fa-github'

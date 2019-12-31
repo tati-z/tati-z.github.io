@@ -1,0 +1,36 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="{{ site.baseurl }}/">
+          {{ site.title }}
+        </a>
+      </h1>
+      <p class="lead tagline">{{ site.tagline }}</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item{% if page.url == site.url %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+
+       <!--dynamically generates a navbar items -->
+      {% for item in site.pages %}
+      {% if item.title != null and item.layout == "page" %}
+      {% assign item_title = item.short_title | default: item.title %}
+      <a class="sidebar-nav-item{% if page.url == item.url %} active{% endif %}" href="{{ item.url | prepend: site.baseurl }}">{{ item_title }}</a>
+      {% endif %}
+      {% endfor %}
+    </nav>
+    
+   <!--social medias --> 
+   {% if site.data.social-media %}
+<div id="social-media">
+    {% assign sm =  site.data.social-media%}
+    {% for entry in sm %}
+    {% assign key = entry | first %}
+    <a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}" rel="me"><i class="fa {{ sm[key].fa-icon }}"></i></a>
+    {% endfor %}
+</div>
+{% endif %}
+    <p class="small">&copy; {{ site.time | date: '%Y' }}. {{ site.name }}.</p>
+  </div>
+</div>
