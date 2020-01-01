@@ -7,10 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   <title>
-    {% if page.title == "Home" %}
+    {% if page.title == "Latest" %}
       {{ site.title }} &middot; {{ site.tagline }}
     {% else %}
-      {{ page.title }} &middot; {{ site.title }}
+      {{ site.title }} &middot; {{ page.title }}
     {% endif %}
   </title>
   <!-- CSS -->
@@ -19,7 +19,6 @@
   <link rel="stylesheet" href=" {{ site.baseurl }}/public/css/syntax.css">
   <link rel="stylesheet" href=" {{ site.baseurl }}/public/css/hyde.css">
   <link rel="stylesheet" href=" {{ site.baseurl }}/public/css/override.css">
-  <link rel="stylesheet" href=" {{ site.baseurl }}/public/css/cursor-blink.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
   
   <!-- Icons -->

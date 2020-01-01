@@ -1,12 +1,13 @@
 ---
 layout: default
 title: Latest
+permalink: /
 ---
-<h1 class="post-title accent-gray">{{ page.title }}</h1>
+<h1 class="post-title accent-gray">{{ page.title }}</h1><span id='t-h' class='h-text'></span>
 <div class="posts">
     <ul class="post-list">
 	{% for post in paginator.posts limit:1 %}
-	<div class='click-div' onclick="window.open({{ post.url | prepend: site.baseurl  }})", '_blank');>
+	<div class='click-div' onclick="window.open('{{ post.url | prepend: site.baseurl  }}')", '_blank');>
 	    <li class="post">
 		<h1 class="post-title">
 		    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
@@ -32,4 +33,22 @@ title: Latest
 	</div>
 	{% endfor %}
     </ul>
+    <span id='t-d' class='h-text'></span>
 </div>
+<script>
+ function pages(){
+     let d = document.getElementById("t-h");
+     d.innerHTML = '';
+     let t = [72,105,100,100,101,110,32,105,110,32,112,108,97,105,110,32,115,105,103,104,116];
+     for (var i = 0; i < t.length; i++) {
+	 d.innerHTML += String.fromCodePoint(t[i]);
+	 // d.innerHTML += x.codePointAt(i) + ',';
+     }
+     d = document.getElementById("t-d");
+     d.innerHTML = '';
+     let x = [116,101,120,116,32,115,116,97,114,116,115];
+     for (var i = 0; i < x.length; i++) {
+	 d.innerHTML += String.fromCodePoint(x[i]);
+     }
+ }
+</script>

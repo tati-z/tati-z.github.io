@@ -5,7 +5,7 @@
 html h1:first-child {
     color:#aaafaf;
 }
-h1 a:hover{
+.post-title a:hover{
     color: #268bd2;
     text-decoration: none;
 }
@@ -49,4 +49,12 @@ p.more-link a{
 }
 .click-div li {
    list-style-type: none; 
+}
+
+.h-text{
+    color: #fff;
+}
+
+.sidebar .h-bg {
+    color:#202020;
 }
