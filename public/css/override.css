@@ -9,10 +9,10 @@ html h1:first-child {
     color: #268bd2;
     text-decoration: none;
 }
-
-p.more-link {
-    text-align: right;
-    margin-top: -1em;
+.more-link {
+    margin-left: auto;
+    margin-top: -2em;
+    color: red;
 }
 p.more-link a{
     display:block;
@@ -57,4 +57,7 @@ p.more-link a{
 
 .sidebar .h-bg {
     color:#202020;
+}
+.post h3{
+    color: #ac4c57;
 }

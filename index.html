@@ -27,7 +27,7 @@ permalink: /
 		    {{ post_excerpt | number_of_words }}
 		{% endcapture %}
 		{% if post_excerpt == post.description or excerpt_words != content_words %}
-		<p class="more-link">...more</p>
+		<p class="more-link"><code>...more</code></p>
 		{% endif %}
 	    </li>
 	</div>
