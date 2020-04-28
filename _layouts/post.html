@@ -11,7 +11,7 @@ layout: default
 <p class="accent-gray">{{ page.author }}.</p>
 <br>
 <div class='related-posts'>
-    <h4>More posts by {{ page.author }}:</h4>
+    <h4>More by {{ page.author }}:</h4>
     <ul>
       <!-- TODO: this is not working properfy. it should exclude current -->
 	{% for post in site.related_posts limit:2 %}
