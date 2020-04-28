@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Latest
+title: Latest Release
 permalink: /
 ---
 <h1 class="post-title accent-gray">{{ page.title }}</h1><span id='t-h' class='h-text'></span>
@@ -27,7 +27,7 @@ permalink: /
 		    {{ post_excerpt | number_of_words }}
 		{% endcapture %}
 		{% if post_excerpt == post.description or excerpt_words != content_words %}
-		<p class="more-link">...more &raquo;</p>
+		<p class="more-link">...more</p>
 		{% endif %}
 	    </li>
 	</div>

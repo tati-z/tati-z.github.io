@@ -6,22 +6,24 @@ layout: default
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
 </div>
+<br>
 <!--sign each post -->
-<p class="accent-gray">Tz.</p>
+<p class="accent-gray">{{ page.author }}.</p>
 <br>
 <div class='related-posts'>
-  <h3>More by {{site.name}}</h3>
-  <ul>
+    <h4>More posts by {{ page.author }}:</h4>
+    <ul>
       <!-- TODO: this is not working properfy. it should exclude current -->
-    {% for post in site.related_posts limit:2 %}
-      <li>
-        <h4>
-          <a href="{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
-        </h4>
-      </li>
-    {% endfor %}
-  </ul>
+	{% for post in site.related_posts limit:2 %}
+	<li>
+            <h4>
+		<a href="{{ post.url }}">
+		    {{ post.title }}
+		    <small>{{ post.date | date_to_string }}</small>
+		</a>
+            </h4>
+	</li>
+	{% endfor %}
+    </ul>
 </div>
+</script>
