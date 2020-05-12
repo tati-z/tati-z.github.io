@@ -3,10 +3,8 @@
     margin-top: -1em;
 }
 html h1:first-child {
-    color:#aaafaf;
 }
 .post-title a:hover{
-    color: #268bd2;
     text-decoration: none;
 }
 .more-link {
@@ -16,17 +14,16 @@ html h1:first-child {
 }
 p.more-link a{
     display:block;
-    color: #aaaaaf;
 }
 .related-posts li {
     list-style-type: none;
     margin-top: -0.5em;
     margin-bottom: 1em;
     margin-left: 0;
-    color: #aaaaaf;
 }
-.related-posts li a{
-    color: #aaaaaf;
+
+.related-posts li a {
+    color: #000;
 }
 
 .accent-red{
