@@ -1,12 +1,13 @@
 ---
 layout: default
-title: Latest Release
+title: Pinned
 permalink: /
 ---
 <h1 class="post-title accent-gray">{{ page.title }}</h1><span id='t-h' class='h-text'></span>
 <div class="posts">
     <ul class="post-list">
-	{% for post in paginator.posts limit:1 %}
+	{% for post in paginator.posts  %}
+	{% if post.pinned  %}
 	<div class='click-div' onclick="window.open('{{ post.url | prepend: site.baseurl  }}')", '_blank');>
 	    <li class="post">
 		<h1 class="post-title">
@@ -31,9 +32,28 @@ permalink: /
 		{% endif %}
 	    </li>
 	</div>
+	{% endif %}
 	{% endfor %}
     </ul>
     <span id='t-d' class='h-text'></span>
+    <br>
+    <div class='related-posts'>
+	<h4 class="accent-gray">Pickled</h4>
+	<ul>
+	    <!-- TODO: this is not working properfy. it should exclude current -->
+	    {% for post in paginator.posts  %}
+	    {% if post.pinned != true %}
+	    <li>
+		<h4>
+		    <a href="{{ post.url }}">
+			<i>{{ post.title }}</i>
+		    </a><i><small>  — {{ post.date | date_to_string }}</small></i>
+		</h4>
+	    </li>
+	    {% endif %}
+	    {% endfor %}
+	</ul>
+    </div>
 </div>
 <script>
  function pages(){

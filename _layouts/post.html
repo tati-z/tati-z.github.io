@@ -6,19 +6,10 @@ layout: default
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
 </div>
-<br>
-<!--sign each post -->
-{% if page.for %}
-<p class="accent-gray">by tati, for <b>{{ page.for }}</b>.</p>
-<br>
-<div class='related-posts'>
-    <h4>More from {{ page.for }}</h4>
-    {% else %}
-<p class="accent-gray">Tz.</b></p>
+<!-- Related  -->
 <br>
 <div class='related-posts'>
     <h4 class="accent-gray">More by tati</h4>
-{% endif %}    
     <ul>
       <!-- TODO: this is not working properfy. it should exclude current -->
 	{% for post in site.related_posts limit:2 %}
