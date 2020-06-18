@@ -1,13 +1,12 @@
 ---
 layout: default
-title: Home
+title: Latest
 permalink: /
 ---
 <h1 class="post-title accent-gray">{{ page.title }}</h1><span id='t-h' class='h-text'></span>
 <div class="posts">
     <ul class="post-list">
-	{% for post in paginator.posts  %}
-	{% if post.pinned  %}
+	{% for post in paginator.posts limit:1 %}
 	<div class='click-div' onclick="window.open('{{ post.url | prepend: site.baseurl  }}')", '_blank');>
 	    <li class="post">
 		<h1 class="post-title">
@@ -19,7 +18,7 @@ permalink: /
 		{% assign date_format = site.date_format | default: "%b %-d, %Y" %}
 		<span class="post-meta post-date">{{ post.date | date: date_format }}</span>
 
-		{% assign post_excerpt = post.content | truncatewords: 30%}
+		{% assign post_excerpt = post.content | truncatewords: 30 %}
 		{{ post_excerpt }}
 		{% capture content_words %}
 		    {{ post.content | number_of_words }}
@@ -29,7 +28,6 @@ permalink: /
 		{% endcapture %}
 		{% if post_excerpt == post.description or excerpt_words != content_words %}
 		<p class="more-link"><code>...more</code></p>
-		{% endif %}
 	    </li>
 	</div>
 	{% endif %}

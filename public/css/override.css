@@ -8,8 +8,7 @@ html h1:first-child {
     text-decoration: none;
 }
 .more-link {
-    margin-left: auto;
-    margin-top: -2em;
+    margin-top: 2em;
     color: red;
 }
 p.more-link a{
