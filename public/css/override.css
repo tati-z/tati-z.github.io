@@ -57,3 +57,13 @@ p.more-link a{
 .post h3{
     color: #ac4c57;
 }
+.wrapper {
+    width:100%;
+    height:100vh;
+    background-position: center center;
+}
+
+.wrapper video {
+    width:100%;
+    height:100%;
+}
