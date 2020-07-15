@@ -67,3 +67,8 @@ p.more-link a{
     width:100%;
     height:100%;
 }
+
+#vidwrap {
+    width:"100%";
+    height:"480";
+}
