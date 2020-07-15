@@ -21,7 +21,7 @@ url: ''
 # # # # Build settings # # # #
 encoding: "utf-8"
 
-paginate: 5 # amount of posts to show
+paginate: 100 # amount of posts to show
 paginate_path: /page:num/
 date_format:  "%b %-d, %Y" # http://shopify.github.io/liquid/filters/date/
     
