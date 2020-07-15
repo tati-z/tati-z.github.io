@@ -9,6 +9,21 @@ permalink: /misk_audio
 
 > Is this.. how noise sounds like?
 
-Compare to silence? Y--
+When a feeling speaks it gives the right answer. But only those who don't [listen with their skins or read with their ears](/public/assets/images/nope.png) hesitate.
 
-> essssss
+> So.... you gonna pluck your eyes off?!
+
+<br>
+<br>
+Was Konstantin playing with his eyes open?<br>
+
+
+I was trying to **answer without saying ye--**
+> eeeeeeeeeeeesssssssssss?
+
+.
+<br>.
+<br>.
+<br>
+
+~~or no~~
