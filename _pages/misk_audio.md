@@ -7,9 +7,10 @@ permalink: /misk_audio
   <source src="/public/assets/audio/happenstance.mp3" type="audio/mp3">
 </audio>
 
-> Is this.. how noise sounds like?
+> Is this how.. nOise sounds like?
 
-When a feeling speaks it gives the right answer. But only those who don't [listen with their skins or read with their ears](/public/assets/images/nope.png) hesitate.
+After a feeling had spoken it leaves the right answer.<br>
+But only those that don't [listen with their skins or read with their ears](/public/assets/images/nope.png) hesitate.
 
 > So.... you gonna pluck your eyes off?!
 
@@ -17,9 +18,10 @@ When a feeling speaks it gives the right answer. But only those who don't [liste
 <br>
 Was Konstantin playing with his eyes open?<br>
 
+> ??<br>Where is the link?
 
-I was trying to **answer without saying ye--**
-> eeeeeeeeeeeesssssssssss?
+I have been trying to **answer without saying ye--**
+> eeeeeeeeeeeessssssss?
 
 .
 <br>.
