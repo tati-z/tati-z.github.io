@@ -15,17 +15,24 @@ But only those that don't [listen with their skins or read with their ears](/pub
 > So.... you gonna pluck your eyes off?!
 
 <br>
-<br>
 Was Konstantin playing with his eyes open?<br>
+> ??<br>Where is the link?!
 
-> ??<br>Where is the link?
+<br>
+> oh, I see..<br>
+> sleeping then waking up and be able to play like him!
 
-I have been trying to **answer without saying ye--**
-> eeeeeeeeeeeessssssss?
+I have been TRYIIING to an-
+
+> **ohhhh, you tRIed??!**
+
+<br>
+<br>
+
+EYE have been trying to **answer you without saying ye--**
+> eeeeEeeeeeessssssssSS?
 
 .
 <br>.
-<br>.
 <br>
-
 ~~or no~~
