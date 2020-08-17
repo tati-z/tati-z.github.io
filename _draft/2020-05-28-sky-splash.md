@@ -85,6 +85,8 @@ Listening to [Avatar uncle's tsungi horn (music)](https://www.youtube.com/watch?
 What if I created an effect of the image being blown in the wind?<br>
 
 > I would need a wind direction like a need a slight source..
+> can I use vector fields on this? Generate a fluid-dynamic-like flow? I want random ones. but ordered randomness: chaos. theory. Nono this is not metereology, but clouds are// huh okay pass.
+> But.. Multivariate Transformation, do they nvm
 
 Okay So what do we have now?
 
