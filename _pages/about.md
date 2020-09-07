@@ -2,17 +2,7 @@
 layout: page
 permalink: /about
 ---
-That doesn't know where that person has been.<br>Th**I**s person shouldn't be where they are.
-
-But since they are here maybe they want to see something that lasts forever?
-
-Oh.. they want to see your recent photographs!
-
-That's it stalker. Now you should be able to spell her surname.<br>
-
-Hey, hey... close the door behind yourself.<br>
-And don't come back.
-
+~~That person doesn't know where this person has been.<br>Th**I**s person shouldn't be where they are.~~
 
 Tan tan tan taaaaann
 _tan tan tan tannnnnn_
@@ -43,3 +33,4 @@ Tan tan tan raan...
 # Sing with me..
 
 Friends never say goodbyyyyyye...
+...
