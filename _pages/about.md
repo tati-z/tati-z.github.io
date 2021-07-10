@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 
+title:
 permalink: /about
 ---
 
-I already have.
+/0
